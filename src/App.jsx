@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navigation from './Navigation';
 import Home from './Home';
 import Form from './Form';
-import Posts from './Posts';
+import Data from './Posts';
 function App() {
 
   return (
@@ -14,7 +14,7 @@ function App() {
       <Routes>
       <Route path ="/" element={<Home/>} />
       <Route path ="/form" element={<Form/>} />
-      <Route path ="/posts" element={<Posts/>} />
+      <Route path ="/posts" element={<Data/>} />
       </Routes>
      </Router>
        

@@ -11,7 +11,6 @@ const Home = () => {
           </Typography>
           <Typography variant="body1" paragraph>
             We provide solutions for...
-            {/* Add a brief description of your services or what the website offers */}
           </Typography>
           <Button variant="contained" color="primary" size="large">
             Get Started
